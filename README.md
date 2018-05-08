@@ -2,6 +2,7 @@
 Work Sample Problems - Data Role
 
  file: *EQ_ykv.py*
+ output visible on: *EQ_ykv_output.ipynb*
 
 #### 0 Cleanup
 
@@ -11,8 +12,9 @@ Data with same time stamp and location information was removed (2026 requests). 
 
 3 POIs were assigned to the curated data 
 
-Cleaned records: 
- 19871
+Cleaned records: 19871
+ 
+ 
           +-------+--------------------+---------+---------------+------------------+
           |    _ID|              TimeSt|     City|            POI|           minDist|
           +-------+--------------------+---------+---------------+------------------+
