@@ -11,7 +11,7 @@ Data with same time stamp and location information was removed (2026 requests). 
 
 #### 1 Label
 
-3 POIs were assigned to the curated data 
+3 POIs were assigned to the curated data, distance units are in kilometers. 
 
 Cleaned records: 19871
  
