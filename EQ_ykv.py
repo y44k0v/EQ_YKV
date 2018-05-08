@@ -22,13 +22,13 @@ sample = spark.read\
   .format('org.apache.spark.sql.execution.datasources.csv.CSVFileFormat')\
   .option('header', 'true')\
   .load('gs://tester012018-192800/EQ/DataSample.csv')
-sample.take(5)
+
 
 poi = spark.read\
   .format('org.apache.spark.sql.execution.datasources.csv.CSVFileFormat')\
   .option('header', 'true')\
   .load('gs://tester012018-192800/EQ/POIList.csv')
-poi.take(5)
+
 
 # Stage 0 - CLEANUP
 
